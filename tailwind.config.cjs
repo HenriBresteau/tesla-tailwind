@@ -8,11 +8,11 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        modelY: "url('./src/assets/asset_0.jpeg')",
-        model3: "url('./src/assets/asset_1.jpeg')",
-        modelX: "url('./src/assets/asset_3.jpeg')",
-        powerwalls: "url('./src/assets/asset_4.jpeg')",
-        accessoires: "url('./src/assets/asset_5.jpeg')",
+        modelY: "url('/assets/asset_0.jpeg')",
+        model3: "url('/assets/asset_1.jpeg')",
+        modelX: "url('/assets/asset_3.jpeg')",
+        powerwalls: "url('/assets/asset_4.jpeg')",
+        accessoires: "url('/assets/asset_5.jpeg')",
       },
     },
   },
