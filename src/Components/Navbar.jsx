@@ -59,11 +59,7 @@ const Navbar = () => {
                 className="p-2 bg-transparent hover:bg-[rgba(0,0,0,0.05)] transition rounded absolute right-6 top-6"
                 onClick={() => setIsShowing((isShowing) => !isShowing)}
               >
-                <img
-                  src="/src/assets/asset_13.svg"
-                  alt="close"
-                  className="w-6"
-                />
+                <img src="/assets/asset_13.svg" alt="close" className="w-6" />
               </button>
               <div className="px-6 py-2 flex flex-col gap-3 mt-24 text-[#393c41] ">
                 {links.map((link) => (
